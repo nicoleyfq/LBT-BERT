@@ -1,7 +1,7 @@
 # LBT-BERT
 Learning by Teaching, with Application to Text Classification.
 ## Algorithm
-![alt text](https://github.com/nicoleyfq/LBT-BERT/LBT_BERT.png)
+![alt text](./LBT_BERT.png)
 ## Implementation Referencing 
 1. "Improving BERT Fine-Tuning via Self-Ensemble and Self-Distillation" 
     paper: https://arxiv.org/pdf/2002.10345.pdf
