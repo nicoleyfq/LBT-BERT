@@ -1,5 +1,5 @@
 # LBT-BERT
-Learning by Teaching, with Application to Text Classification.
+Learning by Teaching, with Application to Text Classification Pytorch Implementation.
 ## Algorithm
 ![alt text](./LBT_BERT.png)
 ## Implementation Referencing 
@@ -10,11 +10,28 @@ Learning by Teaching, with Application to Text Classification.
     papaer: https://arxiv.org/abs/2103.07009
 
 ## How to run code
-1. Download BERT-BASE model and Fine-Tuning Pytorch implementation
+1. Creat a folder "LBT-BERT" and download ./run_classifier.py from this repo
+2. Create a new folder "bert_base_uncased" under "LBT-BERT" and download pre-trained BERT-BASE model to "bert_base_uncased" folder
+<pre>
+https://huggingface.co/bert-base-uncased
+- pytorch_model.bin
+- config.json
+- vocab.txt
+</pre>
+3. Download Fine-Tuning Pytorch implementation to "LBT-BERT" folder
 <pre>
 git clone https://github.com/lonePatient/BERT-SDA.git
 </pre>
-2. change the CURRENT_DIR to downloaded repo and run following code.
+4. Create a "SST_output/bert_base_uncased" folder under outputs to store model result
+5. Create a "data" folder under "LBT-BERT" and download dataset to "LBT-BERT/data"
+<pre>
+https://gluebenchmark.com/tasks
+SST-2
+- train.tsv
+- dev.tsv
+- test.tsv
+</pre>
+6. Change the CURRENT_DIR to "LBT_BERT" and run following code.
 <pre>
 CURRENT_DIR=`pwd`
 export BERT_BASE_DIR=$CURRENT_DIR/bert_base_uncased
