@@ -7,7 +7,7 @@ Learning by Teaching, with Application to Text Classification Pytorch Implementa
     paper: https://arxiv.org/pdf/2002.10345.pdf
     pytorch implementation: https://github.com/lonePatient/BERT-SDA
 2. "Learning by Teaching, with Application to Neural Architecture Search"
-    papaer: https://arxiv.org/abs/2103.07009
+    paper: https://arxiv.org/abs/2103.07009
 
 ## How to run code
 1. Creat a folder "LBT-BERT" and download ./run_classifier.py from this repo
